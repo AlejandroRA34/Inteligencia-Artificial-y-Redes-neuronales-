@@ -1,0 +1,72 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AlejandroRA34/Inteligencia-Artificial-y-Redes-neuronales-/blob/main/Primer_Examen_Parcial_Sabatinos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Primer Examen Parcial Sabatinos \n",
+        "\n",
+        "Electronica digital \n",
+        "\n",
+        "Sebastian Alejandro Rangel Ibarra "
+      ],
+      "metadata": {
+        "id": "-7sCFj-cprCv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero_inicial = int(input(\"Ingrese el numero que desea: \"))\n",
+        "sumatoria = 0\n",
+        "for numero in range(numero_inicial):\n",
+        "    sumatoria = sumatoria + (numero + 1)\n",
+        "\n",
+        "\n",
+        "print(\"La sumatoria de los numeros desde el numero inicial hasta el numero final es: \",sumatoria)"
+      ],
+      "metadata": {
+        "id": "Zf9sAxl_qig-",
+        "outputId": "c2292b15-9723-459d-904d-7e786640dea4",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el numero que desea: 8\n",
+            "La sumatoria de los numeros desde el numero inicial hasta el numero final es:  36\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "collapsed_sections": [],
+      "name": "Te damos la bienvenida a Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
